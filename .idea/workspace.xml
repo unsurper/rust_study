@@ -5,9 +5,15 @@
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/hello_cargo/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/guessing_game/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/variables/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baa70a32-0c47-4734-aca4-8a731f24fce1" name="变更" comment="delete by surper" />
+    <list default="true" id="baa70a32-0c47-4734-aca4-8a731f24fce1" name="变更" comment="first day by surper">
+      <change beforePath="$PROJECT_DIR$/.idea/rust_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_cargo/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/hello_cargo/target/.rustc_info.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +46,33 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/git/github/rust_project/hello_cargo/Cargo.toml",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true"
+    "last_opened_file_path": "C:/git/github/rust_project/variables/Cargo.toml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "language.rust.cargo.check"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cargo.Run variables">
+    <configuration name="Run guessing_game" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package guessing_game --bin guessing_game" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/guessing_game" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run hello_cargo" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package hello_cargo --bin hello_cargo" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/hello_cargo" />
@@ -62,13 +90,33 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run variables" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package variables --bin variables" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/variables" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run variables" />
+        <item itemvalue="Cargo.Run guessing_game" />
         <item itemvalue="Cargo.Run hello_cargo" />
       </list>
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
+    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +136,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete by surper" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete by surper" />
+    <MESSAGE value="first day by surper" />
+    <option name="LAST_COMMIT_MESSAGE" value="first day by surper" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
