@@ -8,13 +8,15 @@
     <cargoProject FILE="$PROJECT_DIR$/guessing_game/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/variables/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/function/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/branches/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/ownership/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/reference/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baa70a32-0c47-4734-aca4-8a731f24fce1" name="变更" comment="second day by surper">
+    <list default="true" id="baa70a32-0c47-4734-aca4-8a731f24fce1" name="变更" comment="third day by surper">
       <change beforePath="$PROJECT_DIR$/.idea/rust_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rust_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guessing_game/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/guessing_game/target/.rustc_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_cargo/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/hello_cargo/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/branches/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/branches/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/git/github/rust_project/function/Cargo.toml",
+    "last_opened_file_path": "C:/git/github/rust_project/reference/Cargo.toml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +59,24 @@
     "settings.editor.selected.configurable": "language.rust.cargo.check"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run function">
+  <component name="RunManager" selected="Cargo.Run ownership">
+    <configuration name="Run branches" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package branches --bin branches" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/branches" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run function" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package function --bin function" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/function" />
@@ -92,9 +111,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run hello_cargo" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package hello_cargo --bin hello_cargo" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/hello_cargo" />
+    <configuration name="Run ownership" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package ownership --bin ownership" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/ownership" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="false" />
@@ -128,15 +147,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run ownership" />
+        <item itemvalue="Cargo.Run branches" />
         <item itemvalue="Cargo.Run function" />
         <item itemvalue="Cargo.Run variables" />
         <item itemvalue="Cargo.Run guessing_game" />
-        <item itemvalue="Cargo.Run hello_cargo" />
       </list>
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
-    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
     <option name="version" value="2" />
   </component>
@@ -159,7 +178,8 @@
     <MESSAGE value="delete by surper" />
     <MESSAGE value="first day by surper" />
     <MESSAGE value="second day by surper" />
-    <option name="LAST_COMMIT_MESSAGE" value="second day by surper" />
+    <MESSAGE value="third day by surper" />
+    <option name="LAST_COMMIT_MESSAGE" value="third day by surper" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
